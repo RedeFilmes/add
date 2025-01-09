@@ -32,7 +32,7 @@ function Header({ onMenuToggle, onCartClick, cartItemsCount, onLogoClick }) {
                             />
                         </svg>
                         <h1 className="text-2xl font-bold flex items-center" data-name="site-title">
-                            Sabor Da Fruta
+                            Sabor
                         </h1>
                     </div>
                 </div>
