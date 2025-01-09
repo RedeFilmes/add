@@ -12,14 +12,14 @@ function Footer() {
                     <div data-name="footer-contact">
                         <h3 className="text-lg font-bold mb-4">Contato</h3>
                         <p className="text-gray-400">Email: contato@marketdelivery.com</p>
-                        <p className="text-gray-400">Telefone: (11) 9999-9999</p>
+                        <p className="text-gray-400">Telefone WhatsApp: (21) 97155-0633</p>
                     </div>
                     <div data-name="footer-social">
                         <h3 className="text-lg font-bold mb-4">Redes Sociais</h3>
                         <div className="flex space-x-4">
                             <a href="#" className="text-gray-400 hover:text-white">Facebook</a>
                             <a href="#" className="text-gray-400 hover:text-white">Instagram</a>
-                            <a href="#" className="text-gray-400 hover:text-white">Twitter</a>
+                            <a href="#" className="text-gray-400 hover:text-white"></a>
                         </div>
                     </div>
                 </div>

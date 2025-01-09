@@ -67,10 +67,10 @@ function Checkout({ cartItems, onBack }) {
             case 'pix':
                 return (
                     <div className="mt-4 p-4 bg-gray-50 rounded-lg" data-name="pix-details">
-                        <h4 className="font-semibold mb-4">Pagamento via PIX</h4>
+                        <h4 className="font-semibold mb-4">Pagamento via PIX - Enviar o Comprovante Apos o Pagamento</h4>
                         <div className="flex flex-col items-center space-y-4">
                             <img 
-                                src="https://qr-generator.com/placeholder-qr-code.png" 
+                                src="img/qrcode.jpeg" 
                                 alt="QR Code PIX"
                                 className="w-48 h-48"
                                 data-name="pix-qr-code"
@@ -79,7 +79,7 @@ function Checkout({ cartItems, onBack }) {
                                 <p className="font-medium mb-2">Chave PIX:</p>
                                 <div className="flex items-center justify-center gap-2">
                                     <code className="bg-white px-4 py-2 rounded border">
-                                        (21) 971550633
+                                    00020101021126580014br.gov.bcb.pix0136adc2092f-9c77-4d83-8e95-021bba6dd2e25204000053039865802BR5923ALEXANDRO M DOS S NAPOL6013SAO JOAO DE M62070503***6304BDE2
                                     </code>
                                     <button 
                                         onClick={() => navigator.clipboard.writeText('market.delivery@email.com')}
@@ -113,9 +113,10 @@ function Checkout({ cartItems, onBack }) {
                                     O entregador levará a maquininha de cartão. Aceitamos:
                                 </p>
                                 <ul className="mt-2 space-y-1 text-sm text-gray-500">
-                                    <li>• Cartão de Crédito (até 12x)</li>
+                                    <li>• Cartão de Crédito </li>
                                     <li>• Cartão de Débito</li>
-                                    <li>• Aproximação (Contactless)</li>
+                                    <li>• Pix </li>
+                                    
                                 </ul>
                             </div>
                         </div>

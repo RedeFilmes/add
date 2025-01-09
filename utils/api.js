@@ -1,6 +1,6 @@
 const mercadoPagoInit = () => {
     try {
-        const mp = new MercadoPago('TEST-d4487dd5-77e6-4e72-9e9c-7e9123d36e5b', {
+        const mp = new MercadoPago('TEST-', {
             locale: 'pt-BR'
         });
         return mp;

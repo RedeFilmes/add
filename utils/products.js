@@ -1,7 +1,7 @@
 const products = {
-    "Hortifruti": [
-        { id: 1, name: "Maçã Fuji", price: 5.99, image: "https://placeholder.com/150", category: "Frutas" },
-        { id: 2, name: "Banana Prata", price: 3.99, image: "https://placeholder.com/150", category: "Frutas" },
+    "Vitaminas": [
+        { id: 1, name: "Vitamina De Morango", price: 5.00, image: "https://www.sabornamesa.com.br/media/k2/items/cache/f7c6b266b48b52b888acd15686984fae_XL.jpg", category: "Garrafa de 300ML Da Fruta" },
+        { id: 2, name: "Vitamiva de Maracujá Com Ortelâ 300ML", price: 5.00, image: "https://www.sabornamesa.com.br/media/k2/items/cache/f8ea1c7aff521bedaac5eab4cbe3ce1e_XL.jpg", category: "Garrafa de 300ML Da Fruta" },
         { id: 3, name: "Alface Crespa", price: 2.99, image: "https://placeholder.com/150", category: "Verduras" },
         { id: 4, name: "Tomate", price: 6.99, image: "https://placeholder.com/150", category: "Legumes" },
         { id: 5, name: "Cenoura", price: 3.50, image: "https://placeholder.com/150", category: "Legumes" },

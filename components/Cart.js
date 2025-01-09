@@ -62,7 +62,7 @@ function Cart({ isOpen, onClose, cartItems, setCartItems, onCheckout }) {
                         </svg>
                         Carrinho
                         <span className="ml-2 text-sm text-gray-500">
-                            ({cartItems.reduce((sum, item) => sum + item.quantity, 0)} itens)
+                            ({cartItems.reduce((sum, item) => sum + item.quantity, 0)} itens Entrega R$3,00 Reais)
                         </span>
                     </h2>
                     <button 
@@ -156,7 +156,7 @@ function Cart({ isOpen, onClose, cartItems, setCartItems, onCheckout }) {
                         </div>
                         <div className="flex justify-between items-center text-sm text-gray-500" data-name="cart-delivery">
                             <span>Entrega</span>
-                            <span>Grátis</span>
+                            <span>Adicione R$3,00 Reais Da Entrega Com Total</span>
                         </div>
                         <div className="flex justify-between items-center font-semibold text-lg" data-name="cart-total">
                             <span>Total</span>
