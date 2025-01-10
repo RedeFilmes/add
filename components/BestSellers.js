@@ -4,7 +4,7 @@ function BestSellers({ onAddToCart }) {
             id: 'best-1',
             name: 'Maracuja Com Hortelã (Feito Com Poupa e Leite Integral)',
             price: 5.50,
-            image: 'img/Maracujacom.png',
+            image: 'img/maracujacom.png',
             category: 'Vitaminas',
             sales: 150
         },
