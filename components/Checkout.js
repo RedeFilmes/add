@@ -79,7 +79,7 @@ function Checkout({ cartItems, onBack }) {
                                 <p className="font-medium mb-2">Chave PIX:</p>
                                 <div className="flex items-center justify-center gap-2">
                                     <code className="bg-white px-4 py-2 rounded border">
-                                    00020101021126580014br.gov.bcb.pix0136adc2092f-9c77-4d83-8e95-021bba6dd2e25204000053039865802BR5923ALEXANDRO M DOS S NAPOL6013SAO JOAO DE M62070503***6304BDE2
+                                   CNPJ: 55.276.743/0001-80
                                     </code>
                                     <button 
                                         onClick={() => navigator.clipboard.writeText('market.delivery@email.com')}
