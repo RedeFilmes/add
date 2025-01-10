@@ -1,27 +1,122 @@
 const products = {
-    "Hortifruti": [
-        { id: 1, name: "Vitamina De Morango", price: 5.00, image: "https://www.sabornamesa.com.br/media/k2/items/cache/f7c6b266b48b52b888acd15686984fae_XL.jpg", category: "Garrafa de 300ML Da Fruta" },
-        { id: 2, name: "Vitamiva de Maracujá Com HOrtelã 300ML", price: 5.00, image: "https://www.sabornamesa.com.br/media/k2/items/cache/f8ea1c7aff521bedaac5eab4cbe3ce1e_XL.jpg", category: "Garrafa de 300ML Da Fruta" },
-        { id: 3, name: "Alface Crespa", price: 2.99, image: "https://placeholder.com/150", category: "Verduras" },
-        { id: 4, name: "Tomate", price: 6.99, image: "https://placeholder.com/150", category: "Legumes" },
-        { id: 5, name: "Cenoura", price: 3.50, image: "https://placeholder.com/150", category: "Legumes" },
-        { id: 6, name: "Laranja Pera", price: 4.99, image: "https://placeholder.com/150", category: "Frutas" },
-        { id: 7, name: "Couve", price: 2.50, image: "https://placeholder.com/150", category: "Verduras" },
-        { id: 8, name: "Batata", price: 5.99, image: "https://placeholder.com/150", category: "Legumes" },
-        { id: 9, name: "Manga", price: 6.99, image: "https://placeholder.com/150", category: "Frutas" },
-        { id: 10, name: "Rúcula", price: 3.99, image: "https://placeholder.com/150", category: "Verduras" }
+    "Vitaminas Com Hortelã": [
+        { id: 6, name: "Laranja Com Hortela", price: 5.50, image: "img/laranjacom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Maracujá Com Hortela", price: 5.50, image: "img/maracujacom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "limão Com Hortela", price: 5.50, image: "img/limaocom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Uva Verde Com Hortela", price: 5.50, image: "img/uvaverdecom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Melancia Com Hortela", price: 5.50, image: "img/melanciacom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Bnana Com Hortela", price: 5.50, image: "img/bananacom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Maçã Com Hortela", price: 5.50, image: "img/maçacom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Mamão Com Hortela", price: 5.50, image: "img/mamaocom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Manga Com Hortela", price: 5.50, image: "img/mangacom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Morango Com Hortela", price: 5.50, image: "img/morangocom.png", category: "200ML Com Hortela" },
+        { id: 6, name: "Tamgirina Com Hortela", price: 5.50, image: "img/tamgirinacom.png", category: "200ML Com Hortela" },
+        
+         
+
+         { id: 6, name: "Laranja Com Hortela", price: 5.50, image: "img/laranjacom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Maracujá Com Hortela", price: 5.50, image: "img/maracujacom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "limão Com Hortela", price: 5.50, image: "img/limaocom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Uva Verde Com Hortela", price: 5.50, image: "img/uvaverdecom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Melancia Com Hortela", price: 5.50, image: "img/melanciacom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Bnana Com Hortela", price: 5.50, image: "img/bananacom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Maçã Com Hortela", price: 5.50, image: "img/maçacom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Mamão Com Hortela", price: 5.50, image: "img/mamaocom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Manga Com Hortela", price: 5.50, image: "img/mangacom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Morango Com Hortela", price: 5.50, image: "img/morangocom.png", category: "300ML Com Hortela" },
+         { id: 6, name: "Tamgirina Com Hortela", price: 5.50, image: "img/tamgirinacom.png", category: "300ML Com Hortela" },
+         
+
+
+         { id: 6, name: "Laranja Com Hortela", price: 5.50, image: "img/laranjacom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Maracujá Com Hortela", price: 5.50, image: "img/maracujacom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "limão Com Hortela", price: 5.50, image: "img/limaocom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Uva Verde Com Hortela", price: 5.50, image: "img/uvaverdecom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Melancia Com Hortela", price: 5.50, image: "img/melanciacom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Bnana Com Hortela", price: 5.50, image: "img/bananacom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Maçã Com Hortela", price: 5.50, image: "img/maçacom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Mamão Com Hortela", price: 5.50, image: "img/mamaocom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Manga Com Hortela", price: 5.50, image: "img/mangacom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Morango Com Hortela", price: 5.50, image: "img/morangocom.png", category: "500ML Com Hortela" },
+         { id: 6, name: "Tamgirina Com Hortela", price: 5.50, image: "img/tamgirinacom.png", category: "500ML Com Hortela" },
+         
+
+
+         { id: 6, name: "Laranja Com Hortela", price: 5.50, image: "img/laranjacom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Maracujá Com Hortela", price: 5.50, image: "img/maracujacom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "limão Com Hortela", price: 5.50, image: "img/limaocom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Uva Verde Com Hortela", price: 5.50, image: "img/uvaverdecom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Melancia Com Hortela", price: 5.50, image: "img/melanciacom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Bnana Com Hortela", price: 5.50, image: "img/bananacom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Maçã Com Hortela", price: 5.50, image: "img/maçacom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Mamão Com Hortela", price: 5.50, image: "img/mamaocom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Manga Com Hortela", price: 5.50, image: "img/mangacom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Morango Com Hortela", price: 5.50, image: "img/morangocom.png", category: "1 Litro Com Hortela" },
+         { id: 6, name: "Tamgirina Com Hortela", price: 5.50, image: "img/tamgirinacom.png", category: "1 Litro Com Hortela" },
+         
+
     ],
-    "Carnes": [
-        { id: 11, name: "Picanha", price: 89.90, image: "https://placeholder.com/150", category: "Bovina" },
-        { id: 12, name: "Frango Inteiro", price: 15.99, image: "https://placeholder.com/150", category: "Frango" },
-        { id: 13, name: "Costela Suína", price: 29.90, image: "https://placeholder.com/150", category: "Suína" },
-        { id: 14, name: "Salmão", price: 59.90, image: "https://placeholder.com/150", category: "Peixes" },
-        { id: 15, name: "Contra Filé", price: 45.90, image: "https://placeholder.com/150", category: "Bovina" },
-        { id: 16, name: "Coxa de Frango", price: 12.99, image: "https://placeholder.com/150", category: "Frango" },
-        { id: 17, name: "Linguiça", price: 19.90, image: "https://placeholder.com/150", category: "Suína" },
-        { id: 18, name: "Tilápia", price: 39.90, image: "https://placeholder.com/150", category: "Peixes" },
-        { id: 19, name: "Alcatra", price: 49.90, image: "https://placeholder.com/150", category: "Bovina" },
-        { id: 20, name: "Asa de Frango", price: 14.99, image: "https://placeholder.com/150", category: "Frango" }
+    "Vitaminas Sem Hortelã": [
+        { id: 6, name: "Laranja (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/laranjasem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Maracujá (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maracujasem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "limão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/limaosem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Uva Verde (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/uvaverdesem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Melancia (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/melanciasem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Bnana (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/bananasem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Maçã (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maçasem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Mamão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mamaosem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Manga (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mangasem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Morango (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/morangosem.png", category: "200ML sem Hortela" },
+        { id: 6, name: "Tamgirina (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/tamgirinasem.png", category: "200ML sem Hortela" },
+        
+
+
+        { id: 6, name: "Laranja (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/laranjasem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Maracujá (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maracujasem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "limão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/limaosem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Uva Verde (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/uvaverdesem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Melancia (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/melanciasem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Bnana (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/bananasem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Maçã (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maçasem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Mamão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mamaosem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Manga (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mangasem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Morango (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/morangosem.png", category: "300ML sem Hortela" },
+        { id: 6, name: "Tamgirina (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/tamgirinasem.png", category: "300ML sem Hortela" },
+        
+
+
+        { id: 6, name: "Laranja (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/laranjasem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Maracujá (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maracujasem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "limão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/limaosem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Uva Verde (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/uvaverdesem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Melancia (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/melanciasem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Bnana (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/bananasem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Maçã (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maçasem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Mamão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mamaosem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Manga (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mangasem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Morango (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/morangosem.png", category: "500ML sem Hortela" },
+        { id: 6, name: "Tamgirina (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/tamgirinasem.png", category: "500ML sem Hortela" },
+        
+
+
+        { id: 6, name: "Laranja (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/laranjasem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Maracujá (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maracujasem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "limão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/limaosem.png", category: "1 Litro Com Hortela" },
+        { id: 6, name: "Uva Verde (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/uvaverdesem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Melancia (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/melanciasem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Bnana (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/bananasem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Maçã Com (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/maçasem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Mamão (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mamaosem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Manga (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/mangasem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Morango (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/morangosem.png", category: "1 Litro sem Hortela" },
+        { id: 6, name: "Tamgirina (Feito Com Poupa e Leite Integral)", price: 5.50, image: "img/tamgirinasem.png", category: "1 Litro sem Hortela" },
+        
+
+
+
+
+
+
     ],
     "Laticínios": [
         { id: 21, name: "Leite Integral", price: 4.99, image: "https://placeholder.com/150", category: "Leite" },

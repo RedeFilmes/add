@@ -155,8 +155,8 @@ function Cart({ isOpen, onClose, cartItems, setCartItems, onCheckout }) {
                             <span>R$ {calculateTotal().toFixed(2)}</span>
                         </div>
                         <div className="flex justify-between items-center text-sm text-gray-500" data-name="cart-delivery">
+                            <span>Entrega</span>
                             <span>Adicione R$3,00 Reais Da Entrega Com Total</span>
-                            <span>    </span>
                         </div>
                         <div className="flex justify-between items-center font-semibold text-lg" data-name="cart-total">
                             <span>Total</span>

@@ -2,34 +2,34 @@ function BestSellers({ onAddToCart }) {
     const bestSellers = [
         {
             id: 'best-1',
-            name: 'Banana Prata',
-            price: 3.99,
-            image: 'https://source.unsplash.com/800x600/?banana',
-            category: 'Hortifruti',
+            name: 'Maracuja Com Horteã (Feito Com Poupa e Leite Integral)',
+            price: 5.50,
+            image: 'img/Maracujacom.png',
+            category: 'Vitaminas',
             sales: 150
         },
         {
             id: 'best-2',
-            name: 'Picanha Premium',
-            price: 89.90,
-            image: 'https://source.unsplash.com/800x600/?meat',
-            category: 'Carnes',
+            name: 'Uva Verde Sem Hortelã (Feito Com a Fruta e Leite Integral)',
+            price: 5.50,
+            image: 'img/uvaverdesem.png',
+            category: 'Vitaminas',
             sales: 120
         },
         {
             id: 'best-3',
-            name: 'Leite Integral',
-            price: 4.99,
-            image: 'https://source.unsplash.com/800x600/?milk',
-            category: 'Laticínios',
+            name: 'Morango Sem Hortelã (Feito Com Poupa e Leite Integral)',
+            price: 5.50,
+            image: 'img/morangosem.png',
+            category: 'Vitaminas',
             sales: 200
         },
         {
             id: 'best-4',
-            name: 'Pão Francês',
-            price: 0.75,
-            image: 'https://source.unsplash.com/800x600/?bread',
-            category: 'Padaria',
+            name: 'Laranja Com Hortelã (Feito Com Poupa e Leite Integral)',
+            price: 5.50,
+            image: 'img/laranjacom.png',
+            category: 'Vitaminas',
             sales: 300
         }
     ];
@@ -39,9 +39,9 @@ function BestSellers({ onAddToCart }) {
             <div className="flex items-center justify-between mb-4">
                 <h2 className="text-2xl font-bold text-gray-800">Mais Vendidos</h2>
                 <div className="flex items-center text-green-600">
-                    <span className="text-sm font-medium">Ver todos</span>
+                    <span className="text-sm font-medium">       </span>
                     <svg className="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="      " />
                     </svg>
                 </div>
             </div>
@@ -53,7 +53,7 @@ function BestSellers({ onAddToCart }) {
                         data-name={`best-seller-${product.id}`}
                     >
                         <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
-                            TOP
+                            TOP 300ML
                         </div>
                         <img 
                             src={product.image} 

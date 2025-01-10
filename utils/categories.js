@@ -1,42 +1,31 @@
 const categories = [
     {
         id: 1,
-        name: "Hortifruti",
-        icon: "🥬",
+        name: "Vitaminas Com Hortelã",
+        icon: " ",
         subcategories: [
-            "Frutas",
-            "Verduras",
-            "Legumes",
-            "Temperos",
-            "Orgânicos",
-            "Frutas Secas",
-            "Cogumelos",
-            "Brotos",
-            "Raízes",
-            "Hidropônicos"
+            "200ML Com Hortela",
+            "300ML Com Hortela",
+            "500ML Com Hortela",
+            "1 Litro Com Hortela",
+           
         ]
     },
     {
         id: 2,
-        name: "Carnes",
-        icon: "🥩",
+        name: "Vitaminas Sem Hortelã",
+        icon: " ",
         subcategories: [
-            "Bovina",
-            "Frango",
-            "Suína",
-            "Peixes",
-            "Cordeiro",
-            "Frutos do Mar",
-            "Exóticas",
-            "Defumados",
-            "Linguiças",
-            "Processados"
+            "200ML sem Hortela",
+            "300ML sem Hortela",
+            "500ML sem Hortela",
+            "1 Litro sem Hortela",
         ]
     },
     {
         id: 3,
         name: "Laticínios",
-        icon: "🥛",
+        icon: " ",
         subcategories: [
             "Leite",
             "Queijos",
@@ -53,7 +42,7 @@ const categories = [
     {
         id: 4,
         name: "Padaria",
-        icon: "🥖",
+        icon: " ",
         subcategories: [
             "Pães",
             "Bolos",
@@ -70,7 +59,7 @@ const categories = [
     {
         id: 5,
         name: "Bebidas",
-        icon: "🥤",
+        icon: " ",
         subcategories: [
             "Água",
             "Refrigerantes",
@@ -87,7 +76,7 @@ const categories = [
     {
         id: 6,
         name: "Mercearia",
-        icon: "🏪",
+        icon: " ",
         subcategories: [
             "Arroz",
             "Feijão",
@@ -104,7 +93,7 @@ const categories = [
     {
         id: 7,
         name: "Congelados",
-        icon: "🧊",
+        icon: " ",
         subcategories: [
             "Pratos Prontos",
             "Legumes",
@@ -121,7 +110,7 @@ const categories = [
     {
         id: 8,
         name: "Higiene",
-        icon: "🧴",
+        icon: " ",
         subcategories: [
             "Sabonetes",
             "Shampoos",
@@ -138,7 +127,7 @@ const categories = [
     {
         id: 9,
         name: "Limpeza",
-        icon: "🧹",
+        icon: " ",
         subcategories: [
             "Detergentes",
             "Desinfetantes",
@@ -155,7 +144,7 @@ const categories = [
     {
         id: 10,
         name: "Pet Shop",
-        icon: "🐾",
+        icon: " ",
         subcategories: [
             "Ração Cães",
             "Ração Gatos",
