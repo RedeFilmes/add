@@ -6,7 +6,7 @@ function Footer() {
                     <div data-name="footer-about">
                         <h3 className="text-lg font-bold mb-4">Sobre nós</h3>
                         <p className="text-gray-400">
-                            Entregamos produtos frescos e de qualidade diretamente na sua casa.
+                           Sabor das Frutas é um delivery de vitaminas que traz a natureza para mais perto de você! Nossa missão é oferecer bebidas saudáveis, práticas e deliciosas, feitas com frutas frescas e ingredientes selecionados, garantindo um sabor único a cada gole. Com uma abordagem sustentável e gourmet, atendemos jovens, famílias e atletas que buscam uma opção nutritiva e cheia de sabor no dia a dia. Entregamos saúde, frescor e bem-estar diretamente à sua porta, tornando sua rotina mais leve e saborosa. Experimente nossas combinações exclusivas e descubra o verdadeiro Sabor das Frutas! 🍓🍍🍊
                         </p>
                     </div>
                     <div data-name="footer-contact">
