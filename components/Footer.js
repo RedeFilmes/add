@@ -24,13 +24,11 @@ function Footer() {
                     </div>
                 </div>
                 <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400" data-name="footer-bottom">
-                    <p>&copy; 2024
-        2025 Sabor Das Frutas 
+                    <p>&copy; 2025 Sabor Das Frutas 
                     | Cidade De São João De Meriti 
                     | Estado Do Rio De Janeiro 
                     | CNPJ: 55.276.743/0001-80 
-                    | Todos os direitos reservados 
-            |  Todos os direitos reservados.</p>
+                    | Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>
